@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sorting correctly renders 1`] = `
+<div
+  className="places__sorting"
+>
+  <span
+    className="places__sorting-caption"
+  >
+    Sort by
+  </span>
+  <span
+    className="places__sorting-type"
+    onClick={[MockFunction]}
+    tabIndex={0}
+  >
+     
+    Popular
+    <svg
+      className="places__sorting-arrow"
+      height="4"
+      width="7"
+    >
+      <use
+        xlinkHref="#icon-arrow-select"
+      />
+    </svg>
+  </span>
+  <ul
+    className="places__options--opened places__options places__options--custom"
+  >
+    <li
+      className="places__option--active places__option"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      Popular
+    </li>
+  </ul>
+</div>
+`;
